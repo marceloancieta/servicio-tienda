@@ -1,0 +1,126 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Laptop Pro 15",
+      "categoria": "electronica",
+      "precio": 2499.99,
+      "stock": 12,
+      "activo": true
+    },
+    {
+      "id": 2,
+      "nombre": "Mouse Inalambrico",
+      "categoria": "electronica",
+      "precio": 35.5,
+      "stock": 80,
+      "activo": true
+    },
+    {
+      "id": 3,
+      "nombre": "Teclado Mecanico",
+      "categoria": "electronica",
+      "precio": 129,
+      "stock": 45,
+      "activo": true
+    },
+    {
+      "id": 4,
+      "nombre": "Monitor 27 pulgadas",
+      "categoria": "electronica",
+      "precio": 399,
+      "stock": 20,
+      "activo": true
+    },
+    {
+      "id": 5,
+      "nombre": "Silla Ergonomica",
+      "categoria": "muebles",
+      "precio": 599,
+      "stock": 8,
+      "activo": true
+    },
+    {
+      "id": 6,
+      "nombre": "Escritorio Standing",
+      "categoria": "muebles",
+      "precio": 799,
+      "stock": 5,
+      "activo": true
+    },
+    {
+      "id": 7,
+      "nombre": "Auriculares BT",
+      "categoria": "electronica",
+      "precio": 89.99,
+      "stock": 60,
+      "activo": true
+    },
+    {
+      "id": 8,
+      "nombre": "Webcam HD",
+      "categoria": "electronica",
+      "precio": 79,
+      "stock": 35,
+      "activo": true
+    },
+    {
+      "id": 9,
+      "nombre": "Lampara LED Escritorio",
+      "categoria": "hogar",
+      "precio": 45,
+      "stock": 0,
+      "activo": false
+    },
+    {
+      "id": 10,
+      "nombre": "Hub USB-C 7 puertos",
+      "categoria": "electronica",
+      "precio": 59.99,
+      "stock": 50,
+      "activo": true
+    }
+  ],
+  "pedidos": [
+    {
+      "id": 1,
+      "productoId": 1,
+      "cliente": "ana.gomez@empresa.com",
+      "cantidad": 1,
+      "estado": "entregado",
+      "fecha": "2024-09-01"
+    },
+    {
+      "id": 2,
+      "productoId": 3,
+      "cliente": "luis.ramos@empresa.com",
+      "cantidad": 2,
+      "estado": "procesando",
+      "fecha": "2024-09-10"
+    },
+    {
+      "id": 3,
+      "productoId": 7,
+      "cliente": "sofia.v@empresa.com",
+      "cantidad": 1,
+      "estado": "enviado",
+      "fecha": "2024-09-12"
+    },
+    {
+      "id": 4,
+      "productoId": 5,
+      "cliente": "carlos.m@empresa.com",
+      "cantidad": 1,
+      "estado": "pendiente",
+      "fecha": "2024-09-15"
+    },
+    {
+      "id": 5,
+      "productoId": 2,
+      "cliente": "ana.gomez@empresa.com",
+      "cantidad": 3,
+      "estado": "entregado",
+      "fecha": "2024-09-18"
+    }
+  ]
+}

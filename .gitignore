@@ -1,0 +1,14 @@
+node_modules/
+
+# Los datos se GENERAN automaticamente, no se versionan.
+#   npm run generar -> crea 2-servicio/db.seed.json (Faker)
+#   npm run seed    -> crea 2-servicio/db.json (copia de trabajo)
+2-servicio/db.seed.json
+2-servicio/db.json
+
+# Reportes generados por el pipeline y el inspector
+4-pipeline/test-report.json
+5-inspector/resumen-analisis.json
+
+# Archivos de bloqueo temporal de Word/Office
+~$*

@@ -1,0 +1,4 @@
+# Esta carpeta se mantiene en el repo aunque este vacia.
+# Los datos (db.seed.json, db.json) se GENERAN aqui, no se versionan:
+#   npm run generar   -> crea db.seed.json (Faker)
+#   npm run seed       -> crea db.json (copia de trabajo)
