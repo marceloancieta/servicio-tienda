@@ -12,3 +12,18 @@ node_modules/
 
 # Archivos de bloqueo temporal de Word/Office
 ~$*
+
+# Variables de entorno locales (se permite la plantilla compartible)
+.env
+.env.*
+!.env.example
+
+# Logs, cobertura y archivos compilados
+npm-debug.log*
+coverage/
+dist/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
