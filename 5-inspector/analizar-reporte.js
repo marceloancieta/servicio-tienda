@@ -149,7 +149,7 @@ if (sinParche.length > 0) {
 // ── 6) SCORE DE RIESGO ────────────────────────────────────────
 // Formula simple: critico*10 + alto*5 + medio*2 + bajo*1
 const score = resumen.critico * 10 + resumen.alto * 5 + resumen.medio * 2 + resumen.bajo * 1;
-const UMBRAL_BLOQUEO = 60;
+const UMBRAL_BLOQUEO = 25;
 const UMBRAL_ALERTA  = 10;
 
 let nivelRiesgo, colorRiesgo;
